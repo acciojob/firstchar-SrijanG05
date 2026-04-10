@@ -1,13 +1,8 @@
 function firstChar(text) {
   // your code here
-	if(text.charAt[0]===" ")
-	{
-      return '';
-	}
-	else
-	{
-     return text.charAt[0];
-	}
+	 const cleanedText = text.trim();
+
+  return cleanedText.charAt(0);
 }
 
 // Do not change the code below
